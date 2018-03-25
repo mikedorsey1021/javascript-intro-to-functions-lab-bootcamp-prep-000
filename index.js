@@ -19,13 +19,11 @@ function sayHiToGrandma (string){
     return "I can\'t hear you!"
   }
 
-//   elseif
-//     (string === string.toUpperCase())
-//       return "YES INDEED"
-//     }
-//
-//     (string === "I love you, Grandma")
-//       return "I love you, too"
-//     }
-//
-// }
+  if (string === string.toUpperCase()){
+      return "YES INDEED"
+    }
+  if (string === "I love you, Grandma"){
+      return "I love you, too"
+    }
+
+}
